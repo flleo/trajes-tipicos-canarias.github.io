@@ -1,0 +1,43 @@
+
+
+body {
+    background-color: rgb(192, 125, 37);
+   
+}
+
+.container {
+    
+    padding: 100px 50px;
+    height: 800px;
+    width: auto;
+    margin-bottom: 200px;
+}
+
+#arr {
+    display: flex;
+    justify-content: space-around; 
+    font-size: 25px;;
+}
+
+.col {
+     display: flex;
+     justify-content: flex-end;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-around; 
+}
+
+#trajes {
+    margin: 100px 0 200px 0;
+}
+
+
+img {
+    height: 150px;
+   
+ 
+}
+

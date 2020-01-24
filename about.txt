@@ -1,0 +1,15 @@
+El proyecto se encuentra en: 
+https://trajes-tipicos-canarias.github.io
+
+
+Referencias:
+https://devcode.la/tutoriales/draggable-con-jquery-ui/
+https://pages.github.com/
+
+
+
+Notas:
+isclick=trs[tr] = nombre de las imagenes de los trajes
+is[i]= numero de la isla
+
+
