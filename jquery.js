@@ -2,7 +2,7 @@ var trajes = ['img/41-Traje-tipico-de-El-Hierro-hombre-min.png', 'img/42-Traje-t
     'img/49-Traje-tipico-de-Lanzarote-hombre-min.png', 'img/50-Traje-tipico-de-Lanzarote-mujer-min.png'
 ];
 
-var islas = ['elhierro.jpg', 'lapalma.jpg', 'gomera.jpg', 'tenerife.jpg', 'grancanaria.jpg', 'fuerteventura.jpg', 'lanzarote.jpg'];
+var islas = ['elhierro.png', 'lapalma.png', 'gomera.jpg', 'tenerife.jpg', 'grancanaria.png', 'fuerteventura.png', 'lanzarote.jpg'];
 // evaluaTa(ts) , inidica si tenemos el 1er traje
 var pri;
 // trajes para los niveles
@@ -83,17 +83,17 @@ function evaluaTa(n) {
 
 
 // trajes - niveles
-$('#n1').click(function () {
+$('#n1').on('click', function () {
     tsS = []; 
     evaluaTa(4);
 });
 
-$('#n2').click(function () {
+$('#n2').on('click', function () {
     tsS = []; 
     evaluaTa(7);
 });
 
-$('#n3').click(function () {
+$('#n3').on('click', function () {
     tsS = []; 
     evaluaTa(8);
 });
@@ -102,7 +102,7 @@ $('#n3').click(function () {
 
 
 
-$('#islas img').mouseout(function () {
+$('#islas img').on('mouseover', function () {
     
     $(this).attr('id', function (y, id) {
         switch (id) {
@@ -171,9 +171,5 @@ $('#islas img').mouseout(function () {
                 break;
         }
     });
-    /*   for (let i = 0; i < trs.length; i++) {
-           // if (2 * islas[is[i]] === 2 * trs[i]) alert('ok')
-           isclick
-
-       }*/
+ 
 });
